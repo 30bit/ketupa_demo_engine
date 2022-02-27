@@ -1,0 +1,17 @@
+[package]
+name = "ketupa_demo_engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+winit = "0.26"
+wgpu = "0.12"
+log = "0.4"
+pollster = "0.2"
+env_logger = "0.9"
+bytemuck = "1.7.3"
+lyon_tessellation = "0.17"
+mint = "0.5"
+glam = { version = "0.20", features = ["mint", "bytemuck"] }
+euclid = { version = "0.22", features = ["mint"] }
